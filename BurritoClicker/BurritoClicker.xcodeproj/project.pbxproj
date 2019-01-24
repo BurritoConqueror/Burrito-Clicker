@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4258FE6321592C3F003A4924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258FE6221592C3F003A4924 /* AppDelegate.swift */; };
+		4258FE6521592C3F003A4924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258FE6421592C3F003A4924 /* ViewController.swift */; };
+		4258FE6821592C3F003A4924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258FE6621592C3F003A4924 /* Main.storyboard */; };
+		4258FE6A21592C42003A4924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4258FE6921592C42003A4924 /* Assets.xcassets */; };
+		4258FE6D21592C42003A4924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258FE6B21592C42003A4924 /* LaunchScreen.storyboard */; };
+		4258FE7821592C43003A4924 /* BurritoClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258FE7721592C43003A4924 /* BurritoClickerTests.swift */; };
+		4258FE8321592C43003A4924 /* BurritoClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258FE8221592C43003A4924 /* BurritoClickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4258FE7421592C42003A4924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4258FE5721592C3F003A4924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4258FE5E21592C3F003A4924;
+			remoteInfo = BurritoClicker;
+		};
+		4258FE7F21592C43003A4924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4258FE5721592C3F003A4924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4258FE5E21592C3F003A4924;
+			remoteInfo = BurritoClicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4258FE5F21592C3F003A4924 /* BurritoClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurritoClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4258FE6221592C3F003A4924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4258FE6421592C3F003A4924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4258FE6721592C3F003A4924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4258FE6921592C42003A4924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4258FE6C21592C42003A4924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4258FE6E21592C42003A4924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4258FE7321592C42003A4924 /* BurritoClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurritoClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4258FE7721592C43003A4924 /* BurritoClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoClickerTests.swift; sourceTree = "<group>"; };
+		4258FE7921592C43003A4924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4258FE7E21592C43003A4924 /* BurritoClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurritoClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4258FE8221592C43003A4924 /* BurritoClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoClickerUITests.swift; sourceTree = "<group>"; };
+		4258FE8421592C43003A4924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4258FE5C21592C3F003A4924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4258FE7021592C42003A4924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4258FE7B21592C43003A4924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4258FE5621592C3F003A4924 = {
+			isa = PBXGroup;
+			children = (
+				4258FE6121592C3F003A4924 /* BurritoClicker */,
+				4258FE7621592C43003A4924 /* BurritoClickerTests */,
+				4258FE8121592C43003A4924 /* BurritoClickerUITests */,
+				4258FE6021592C3F003A4924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4258FE6021592C3F003A4924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4258FE5F21592C3F003A4924 /* BurritoClicker.app */,
+				4258FE7321592C42003A4924 /* BurritoClickerTests.xctest */,
+				4258FE7E21592C43003A4924 /* BurritoClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4258FE6121592C3F003A4924 /* BurritoClicker */ = {
+			isa = PBXGroup;
+			children = (
+				4258FE6221592C3F003A4924 /* AppDelegate.swift */,
+				4258FE6421592C3F003A4924 /* ViewController.swift */,
+				4258FE6621592C3F003A4924 /* Main.storyboard */,
+				4258FE6921592C42003A4924 /* Assets.xcassets */,
+				4258FE6B21592C42003A4924 /* LaunchScreen.storyboard */,
+				4258FE6E21592C42003A4924 /* Info.plist */,
+			);
+			path = BurritoClicker;
+			sourceTree = "<group>";
+		};
+		4258FE7621592C43003A4924 /* BurritoClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4258FE7721592C43003A4924 /* BurritoClickerTests.swift */,
+				4258FE7921592C43003A4924 /* Info.plist */,
+			);
+			path = BurritoClickerTests;
+			sourceTree = "<group>";
+		};
+		4258FE8121592C43003A4924 /* BurritoClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4258FE8221592C43003A4924 /* BurritoClickerUITests.swift */,
+				4258FE8421592C43003A4924 /* Info.plist */,
+			);
+			path = BurritoClickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4258FE5E21592C3F003A4924 /* BurritoClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4258FE8721592C43003A4924 /* Build configuration list for PBXNativeTarget "BurritoClicker" */;
+			buildPhases = (
+				4258FE5B21592C3F003A4924 /* Sources */,
+				4258FE5C21592C3F003A4924 /* Frameworks */,
+				4258FE5D21592C3F003A4924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurritoClicker;
+			productName = BurritoClicker;
+			productReference = 4258FE5F21592C3F003A4924 /* BurritoClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4258FE7221592C42003A4924 /* BurritoClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4258FE8A21592C43003A4924 /* Build configuration list for PBXNativeTarget "BurritoClickerTests" */;
+			buildPhases = (
+				4258FE6F21592C42003A4924 /* Sources */,
+				4258FE7021592C42003A4924 /* Frameworks */,
+				4258FE7121592C42003A4924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4258FE7521592C42003A4924 /* PBXTargetDependency */,
+			);
+			name = BurritoClickerTests;
+			productName = BurritoClickerTests;
+			productReference = 4258FE7321592C42003A4924 /* BurritoClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4258FE7D21592C43003A4924 /* BurritoClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4258FE8D21592C43003A4924 /* Build configuration list for PBXNativeTarget "BurritoClickerUITests" */;
+			buildPhases = (
+				4258FE7A21592C43003A4924 /* Sources */,
+				4258FE7B21592C43003A4924 /* Frameworks */,
+				4258FE7C21592C43003A4924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4258FE8021592C43003A4924 /* PBXTargetDependency */,
+			);
+			name = BurritoClickerUITests;
+			productName = BurritoClickerUITests;
+			productReference = 4258FE7E21592C43003A4924 /* BurritoClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4258FE5721592C3F003A4924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 90302781;
+				TargetAttributes = {
+					4258FE5E21592C3F003A4924 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4258FE7221592C42003A4924 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4258FE5E21592C3F003A4924;
+					};
+					4258FE7D21592C43003A4924 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4258FE5E21592C3F003A4924;
+					};
+				};
+			};
+			buildConfigurationList = 4258FE5A21592C3F003A4924 /* Build configuration list for PBXProject "BurritoClicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4258FE5621592C3F003A4924;
+			productRefGroup = 4258FE6021592C3F003A4924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4258FE5E21592C3F003A4924 /* BurritoClicker */,
+				4258FE7221592C42003A4924 /* BurritoClickerTests */,
+				4258FE7D21592C43003A4924 /* BurritoClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4258FE5D21592C3F003A4924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4258FE6D21592C42003A4924 /* LaunchScreen.storyboard in Resources */,
+				4258FE6A21592C42003A4924 /* Assets.xcassets in Resources */,
+				4258FE6821592C3F003A4924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4258FE7121592C42003A4924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4258FE7C21592C43003A4924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4258FE5B21592C3F003A4924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4258FE6521592C3F003A4924 /* ViewController.swift in Sources */,
+				4258FE6321592C3F003A4924 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4258FE6F21592C42003A4924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4258FE7821592C43003A4924 /* BurritoClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4258FE7A21592C43003A4924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4258FE8321592C43003A4924 /* BurritoClickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4258FE7521592C42003A4924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4258FE5E21592C3F003A4924 /* BurritoClicker */;
+			targetProxy = 4258FE7421592C42003A4924 /* PBXContainerItemProxy */;
+		};
+		4258FE8021592C43003A4924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4258FE5E21592C3F003A4924 /* BurritoClicker */;
+			targetProxy = 4258FE7F21592C43003A4924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4258FE6621592C3F003A4924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4258FE6721592C3F003A4924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4258FE6B21592C42003A4924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4258FE6C21592C42003A4924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4258FE8521592C43003A4924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4258FE8621592C43003A4924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4258FE8821592C43003A4924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = BurritoClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurritoBoy.BurritoClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4258FE8921592C43003A4924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = BurritoClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurritoBoy.BurritoClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4258FE8B21592C43003A4924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = BurritoClickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurritoBoy.BurritoClickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurritoClicker.app/BurritoClicker";
+			};
+			name = Debug;
+		};
+		4258FE8C21592C43003A4924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = BurritoClickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurritoBoy.BurritoClickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurritoClicker.app/BurritoClicker";
+			};
+			name = Release;
+		};
+		4258FE8E21592C43003A4924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = BurritoClickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurritoBoy.BurritoClickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurritoClicker;
+			};
+			name = Debug;
+		};
+		4258FE8F21592C43003A4924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = BurritoClickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurritoBoy.BurritoClickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurritoClicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4258FE5A21592C3F003A4924 /* Build configuration list for PBXProject "BurritoClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4258FE8521592C43003A4924 /* Debug */,
+				4258FE8621592C43003A4924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4258FE8721592C43003A4924 /* Build configuration list for PBXNativeTarget "BurritoClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4258FE8821592C43003A4924 /* Debug */,
+				4258FE8921592C43003A4924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4258FE8A21592C43003A4924 /* Build configuration list for PBXNativeTarget "BurritoClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4258FE8B21592C43003A4924 /* Debug */,
+				4258FE8C21592C43003A4924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4258FE8D21592C43003A4924 /* Build configuration list for PBXNativeTarget "BurritoClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4258FE8E21592C43003A4924 /* Debug */,
+				4258FE8F21592C43003A4924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4258FE5721592C3F003A4924 /* Project object */;
+}
